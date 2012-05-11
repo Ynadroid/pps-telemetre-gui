@@ -52,11 +52,11 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>D:\DEV\Projects\pps-telemetre-gui\inc;D:\QtSDK\Desktop\Qt\4.8.1\msvc2010\include;D:\QtSDK\Desktop\Qt\4.8.1\msvc2010\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\inc;..\..\..\QtSDK\Desktop\Qt\4.8.1\msvc2010\include;..\..\..\QtSDK\Desktop\Qt\4.8.1\msvc2010\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\QtSDK\Desktop\Qt\4.8.1\msvc2010\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\..\QtSDK\Desktop\Qt\4.8.1\msvc2010\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>QtCored4.lib;QtGuid4.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -66,6 +66,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>.\inc;..\..\..\QtSDK\Desktop\Qt\4.8.1\msvc2010\include;..\..\..\QtSDK\Desktop\Qt\4.8.1\msvc2010\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
